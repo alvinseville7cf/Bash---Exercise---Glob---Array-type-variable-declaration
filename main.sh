@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 list=("var x = new int[1] { 1 }" "var x = new int[1] { 1, }" "var x = new int[1] { 1, 2 }")
 
 integerNumberGlob='?(-|+)+([[:digit:]])?(u|ul|lu)'
